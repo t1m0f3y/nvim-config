@@ -1,4 +1,5 @@
-colorscheme retrobox
+source $HOME/.config/nvim/colors/retrobox.vim
+"colorscheme retrobox
 " string numbers
 set number
 " fuzzy finder deep from current vim working directory
