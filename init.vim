@@ -18,3 +18,6 @@ set shiftwidth=4
 set autoindent
 
 set clipboard=unnamedplus
+
+"auto close preview window for omni completion
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
