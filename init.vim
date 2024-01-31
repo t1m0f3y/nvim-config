@@ -28,3 +28,6 @@ set undofile
 
 "set ruler
 set colorcolumn=80
+
+"increase scrollback size in terminal buffer
+set scrollback=100000
