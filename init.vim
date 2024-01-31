@@ -31,3 +31,6 @@ set colorcolumn=80
 
 "increase scrollback size in terminal buffer
 set scrollback=100000
+
+"add cursor line highlighting 
+set cursorline
