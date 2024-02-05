@@ -34,3 +34,5 @@ vim.api.nvim_exec('set scrollback=100000', true)
 
 ---add cursor line highlighting 
 vim.api.nvim_exec('set cursorline', true)
+
+vim.opt.guicursor = ""
