@@ -36,3 +36,8 @@ vim.api.nvim_exec('set scrollback=100000', true)
 vim.api.nvim_exec('set cursorline', true)
 
 vim.opt.guicursor = ""
+
+--- remap
+local map = vim.api.nvim_set_keymap
+map('n', '<C-d>', '<C-d>zz', {noremap = true, silent = false})
+map('n', '<C-u>', '<C-u>zz', {noremap = true, silent = false})
