@@ -37,6 +37,8 @@ vim.api.nvim_exec('set cursorline', true)
 
 vim.opt.guicursor = ""
 
+vim.api.nvim_exec('set switchbuf=useopen', true)
+
 --- remap
 local map = vim.api.nvim_set_keymap
 map('n', '<C-d>', '<C-d>zz', {noremap = true, silent = false})
