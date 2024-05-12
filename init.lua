@@ -1,3 +1,6 @@
+require("my.remap")
+require("my.packer")
+
 vim.api.nvim_exec('source $HOME/.config/nvim/colors/retrobox.vim', true)
 ---colorscheme retrobox
 --- string numbers
@@ -38,8 +41,3 @@ vim.api.nvim_exec('set cursorline', true)
 vim.opt.guicursor = ""
 
 vim.api.nvim_exec('set switchbuf=useopen', true)
-
---- remap
-local map = vim.api.nvim_set_keymap
-map('n', '<C-d>', '<C-d>zz', {noremap = true, silent = false})
-map('n', '<C-u>', '<C-u>zz', {noremap = true, silent = false})
