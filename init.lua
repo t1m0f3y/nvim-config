@@ -40,4 +40,4 @@ vim.api.nvim_exec('set cursorline', true)
 
 vim.opt.guicursor = ""
 
-vim.api.nvim_exec('set switchbuf=useopen', true)
+vim.api.nvim_exec('set switchbuf=useopen,usetab', true)
